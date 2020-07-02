@@ -1,0 +1,18 @@
+title new note
+
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+Server-->Browser: HTML-code
+
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+Server-->Browser: main.css
+
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+Server-->Browser: spa.js
+
+note left of Browser: Browser executing js-code that json.file
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+Server-->Browser: data.json
+
+note left of Browser: Browser call eventhandler to render the json file
+Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+Server-->Browser: data.json
