@@ -1,4 +1,4 @@
-title new note
+title new note https://www.websequencediagrams.com/
 
 Browser->Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
 Server-->Browser: HTML-code
